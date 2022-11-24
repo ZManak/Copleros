@@ -1,0 +1,41 @@
+.contendor {
+    display: flex;
+}
+
+img{
+    border-radius: 500px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.manolo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items:center;
+}
+
+.lola {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items:center;
+}
+.fary {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items:center;
+}
+.rocio {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items:center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column; 
+}
