@@ -1,38 +1,22 @@
 .contendor {
     display: flex;
+    width: 250px;
 }
 
 img{
-    border-radius: 500px;
-    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
     height: 100px;
+    width: 100px;
     margin: 10px;
 }
 
-.manolo {
+.artista {
     display: flex;
     flex-direction: row;
     gap: 20px;
     align-items:center;
-}
-
-.lola {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items:center;
-}
-.fary {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items:center;
-}
-.rocio {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items:center;
+    border-bottom: 1px solid black;
 }
 
 .info{
