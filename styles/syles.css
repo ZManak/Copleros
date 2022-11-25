@@ -12,7 +12,6 @@ body{
     width: 350px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
     background-color: antiquewhite;
     border-bottom: 1px solid black;
 }
