@@ -1,6 +1,20 @@
+body{
+    background-color: aquamarine;
+}
+
 .contendor {
     display: flex;
-    width: 250px;
+    flex-wrap: wrap;
+}
+
+.artista { 
+    align-items: center;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
 }
 
 img{
@@ -9,14 +23,6 @@ img{
     height: 100px;
     width: 100px;
     margin: 10px;
-}
-
-.artista {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items:center;
-    border-bottom: 1px solid black;
 }
 
 .info{
